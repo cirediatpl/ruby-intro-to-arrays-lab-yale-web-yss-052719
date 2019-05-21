@@ -28,5 +28,5 @@ end
 
 def length_of_array(array)
   last = array[-1]
-  1 + array.index(last)
+  length =+ array.index(last)
 end
